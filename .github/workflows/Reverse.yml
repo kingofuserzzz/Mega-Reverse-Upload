@@ -1,4 +1,4 @@
-name: Reverse V2
+name: Reverse
 
 on:
   workflow_dispatch:
