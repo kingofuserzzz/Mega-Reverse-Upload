@@ -10,7 +10,7 @@ on:
       PASSWORD:
         description: 'Password'
         required: true
-        default: 'pass'
+        default: 'Pass'
       FILE_LINK1:
         description: 'Link of File 1-1'
         required: true
