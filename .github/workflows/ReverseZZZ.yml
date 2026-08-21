@@ -12,55 +12,55 @@ on:
         required: true
         default: 'Pass'
       FILE_LINK1:
-        description: 'Link of File 1-1'
+        description: 'Link of File 1'
         required: true
         default: 'XXXX'
       FILE_LINK1x:
-        description: 'Link of File 1-1'
+        description: 'Link of File 2'
         required: true
         default: 'XXXX'
       FILE_LINK2x:
-        description: 'Link of File 1-1'
+        description: 'Link of File 3'
         required: true
         default: 'XXXX'
       FILE_LINK3x:
-        description: 'Link of File 1-1'
+        description: 'Link of File 4'
         required: true
         default: 'XXXX'
       FILE_LINK4x:
-        description: 'Link of File 1-1'
+        description: 'Link of File 5'
         required: true
         default: 'XXXX'
       FILE_LINK5x:
-        description: 'Link of File 1-1'
+        description: 'Link of File 6'
         required: true
         default: 'XXXX'
       FILE_LINK6x:
-        description: 'Link of File 1-1'
+        description: 'Link of File 7'
         required: true
         default: 'XXXX'
       FILE_LINK7x:
-        description: 'Link of File 1-1'
+        description: 'Link of File 8'
         required: true
         default: 'XXXX'
       FILE_LINK8x:
-        description: 'Link of File 1-1'
+        description: 'Link of File 9'
         required: true
         default: 'XXXX'
       FILE_LINK9x:
-        description: 'Link of File 1-1'
+        description: 'Link of File 10'
         required: true
         default: 'XXXX'
       FILE_LINK10x:
-        description: 'Link of File 1-1'
+        description: 'Link of File 11'
         required: true
         default: 'XXXX'
       FILE_LINK11x:
-        description: 'Link of File 1-1'
+        description: 'Link of File 12'
         required: true
         default: 'XXXX'
       FILE_LINK12x:
-        description: 'Link of File 1-1'
+        description: 'Link of File 13'
         required: true
         default: 'XXXX'
       FILE_LINK2:
