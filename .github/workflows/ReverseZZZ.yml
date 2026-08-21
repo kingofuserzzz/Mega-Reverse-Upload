@@ -6,7 +6,7 @@ on:
       USERNAME:
         description: 'Username'
         required: true
-        default: 'Email'
+        default: 'Email '
       PASSWORD:
         description: 'Password'
         required: true
