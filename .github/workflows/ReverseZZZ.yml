@@ -15,6 +15,54 @@ on:
         description: 'Link of File 1-1'
         required: true
         default: 'XXXX'
+      FILE_LINK1x:
+        description: 'Link of File 1-1'
+        required: true
+        default: 'XXXX'
+      FILE_LINK2x:
+        description: 'Link of File 1-1'
+        required: true
+        default: 'XXXX'
+      FILE_LINK3x:
+        description: 'Link of File 1-1'
+        required: true
+        default: 'XXXX'
+      FILE_LINK4x:
+        description: 'Link of File 1-1'
+        required: true
+        default: 'XXXX'
+      FILE_LINK5x:
+        description: 'Link of File 1-1'
+        required: true
+        default: 'XXXX'
+      FILE_LINK6x:
+        description: 'Link of File 1-1'
+        required: true
+        default: 'XXXX'
+      FILE_LINK7x:
+        description: 'Link of File 1-1'
+        required: true
+        default: 'XXXX'
+      FILE_LINK8x:
+        description: 'Link of File 1-1'
+        required: true
+        default: 'XXXX'
+      FILE_LINK9x:
+        description: 'Link of File 1-1'
+        required: true
+        default: 'XXXX'
+      FILE_LINK10x:
+        description: 'Link of File 1-1'
+        required: true
+        default: 'XXXX'
+      FILE_LINK11x:
+        description: 'Link of File 1-1'
+        required: true
+        default: 'XXXX'
+      FILE_LINK12x:
+        description: 'Link of File 1-1'
+        required: true
+        default: 'XXXX'
       FILE_LINK2:
         description: 'Link of File 1-2'
         required: true
@@ -101,73 +149,73 @@ jobs:
       continue-on-error: true
     - name: Downloading file 2
       run: |
-        wget ${{ github.event.inputs.FILE_LINK1 }}
+        wget ${{ github.event.inputs.FILE_LINK1x }}
         unrar x MEGA.rar
         rm MEGA.rar
       continue-on-error: true
     - name: Downloading file 3
       run: |
-        wget ${{ github.event.inputs.FILE_LINK1 }}
+        wget ${{ github.event.inputs.FILE_LINK2x }}
         unrar x MEGA.rar
         rm MEGA.rar
       continue-on-error: true
     - name: Downloading file 4
       run: |
-        wget ${{ github.event.inputs.FILE_LINK1 }}
+        wget ${{ github.event.inputs.FILE_LINK3x }}
         unrar x MEGA.rar
         rm MEGA.rar
       continue-on-error: true
     - name: Downloading file 5
       run: |
-        wget ${{ github.event.inputs.FILE_LINK1 }}
+        wget ${{ github.event.inputs.FILE_LINK4x }}
         unrar x MEGA.rar
         rm MEGA.rar
       continue-on-error: true
     - name: Downloading file 6
       run: |
-        wget ${{ github.event.inputs.FILE_LINK1 }}
+        wget ${{ github.event.inputs.FILE_LINK5x }}
         unrar x MEGA.rar
         rm MEGA.rar
       continue-on-error: true
     - name: Downloading file 7
       run: |
-        wget ${{ github.event.inputs.FILE_LINK1 }}
+        wget ${{ github.event.inputs.FILE_LINK6x }}
         unrar x MEGA.rar
         rm MEGA.rar
       continue-on-error: true
     - name: Downloading file 8
       run: |
-        wget ${{ github.event.inputs.FILE_LINK1 }}
+        wget ${{ github.event.inputs.FILE_LINK7x }}
         unrar x MEGA.rar
         rm MEGA.rar
       continue-on-error: true
     - name: Downloading file 9
       run: |
-        wget ${{ github.event.inputs.FILE_LINK1 }}
+        wget ${{ github.event.inputs.FILE_LINK8x }}
         unrar x MEGA.rar
         rm MEGA.rar
       continue-on-error: true
     - name: Downloading file 10
       run: |
-        wget ${{ github.event.inputs.FILE_LINK1 }}
+        wget ${{ github.event.inputs.FILE_LINK9x }}
         unrar x MEGA.rar
         rm MEGA.rar
       continue-on-error: true
     - name: Downloading file 11
       run: |
-        wget ${{ github.event.inputs.FILE_LINK1 }}
+        wget ${{ github.event.inputs.FILE_LINK10x }}
         unrar x MEGA.rar
         rm MEGA.rar
       continue-on-error: true
     - name: Downloading file 12
       run: |
-        wget ${{ github.event.inputs.FILE_LINK1 }}
+        wget ${{ github.event.inputs.FILE_LINK11x }}
         unrar x MEGA.rar
         rm MEGA.rar
       continue-on-error: true
     - name: Downloading file 13
       run: |
-        wget ${{ github.event.inputs.FILE_LINK1 }}
+        wget ${{ github.event.inputs.FILE_LINK12x }}
         unrar x MEGA.rar
         rm MEGA.rar
       continue-on-error: true
