@@ -83,30 +83,6 @@ on:
         description: 'Link of File 2-3'
         required: true
         default: '==============================='
-      FILE_LINK7:
-        description: 'Link of File 3-1'
-        required: true
-        default: 'XXXX'
-      FILE_LINK8:
-        description: 'Link of File 3-2'
-        required: true
-        default: 'XXXX'
-      FILE_LINK9:
-        description: 'Link of File 3-3'
-        required: true
-        default: '==============================='
-      FILE_LINK10:
-        description: 'Link of File 4-1'
-        required: true
-        default: 'XXXX'
-      FILE_LINK11:
-        description: 'Link of File 4-2'
-        required: true
-        default: 'XXXX'
-      FILE_LINK12:
-        description: 'Link of File 4-3'
-        required: true
-        default: '==============================='
 
 jobs:
   build:
