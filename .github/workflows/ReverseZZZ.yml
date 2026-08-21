@@ -59,10 +59,14 @@ on:
         description: 'Link of File 12'
         required: true
         default: 'XXXX'
-      FILE_LINK12x:
-        description: 'Link of File 13'
+      FILE_LINK2:
+        description: 'Link of File 1-2'
         required: true
         default: 'XXXX'
+      FILE_LINK3:
+        description: 'Link of File 1-3'
+        required: true
+        default: '==============================='
       FILE_LINK4:
         description: 'Link of File 2-1'
         required: true
@@ -202,12 +206,6 @@ jobs:
     - name: Downloading file 12
       run: |
         wget ${{ github.event.inputs.FILE_LINK11x }}
-        unrar x MEGA.rar
-        rm MEGA.rar
-      continue-on-error: true
-    - name: Downloading file 13
-      run: |
-        wget ${{ github.event.inputs.FILE_LINK12x }}
         unrar x MEGA.rar
         rm MEGA.rar
       continue-on-error: true
