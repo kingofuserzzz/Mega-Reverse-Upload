@@ -197,7 +197,7 @@ jobs:
       
     - name: Processing Files
       run: |
-        RANDOM_NAME="Telegram_HexZex69_$(tr -dc 'A-Za-z0-9' </dev/urandom | head -c 3)"
+        RANDOM_NAME="Telegram_HexZex69_$(tr -dc 'A-Za-z0-9' </dev/urandom | head -c 2)"
         mv Mega "$RANDOM_NAME"
         mega-put "$RANDOM_NAME/" Telegram_Goodvid69/
         wget https://github.com/kingofuserzzz/zzz/releases/download/fgsdfg/Goodvid69.png
@@ -303,7 +303,7 @@ jobs:
       
     - name: Processing Files
       run: |
-        RANDOM_NAME="Telegram_HexzeX69_$(tr -dc 'A-Za-z0-9' </dev/urandom | head -c 3)"
+        RANDOM_NAME="Telegram_HexzeX69_$(tr -dc 'A-Za-z0-9' </dev/urandom | head -c 4)"
         mv Mega "$RANDOM_NAME"
         mega-put "$RANDOM_NAME/" Telegram_Goodvid69/
         wget https://github.com/kingofuserzzz/zzz/releases/download/fgsdfg/HexZex69.png
@@ -339,7 +339,7 @@ jobs:
       
     - name: Processing Files
       run: |
-        RANDOM_NAME="Telegram_GoodVid69_$(tr -dc 'A-Za-z0-9' </dev/urandom | head -c 3)"
+        RANDOM_NAME="Telegram_GoodVid69_$(tr -dc 'A-Za-z0-9' </dev/urandom | head -c 5)"
         mv Mega "$RANDOM_NAME"
         mega-put "$RANDOM_NAME/" Telegram_Goodvid69/
         wget https://github.com/kingofuserzzz/zzz/releases/download/fgsdfg/Goodvid69.png
@@ -375,7 +375,7 @@ jobs:
       
     - name: Processing Files
       run: |
-        RANDOM_NAME="Telegram_HexzeX69_$(tr -dc 'A-Za-z0-9' </dev/urandom | head -c 4)"
+        RANDOM_NAME="Telegram_HexzeX69_$(tr -dc 'A-Za-z0-9' </dev/urandom | head -c 6)"
         mv Mega "$RANDOM_NAME"
         mega-put "$RANDOM_NAME/" Telegram_Goodvid69/
         wget https://github.com/kingofuserzzz/zzz/releases/download/fgsdfg/HexZex69.png
