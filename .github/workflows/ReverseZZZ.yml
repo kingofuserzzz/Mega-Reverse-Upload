@@ -229,7 +229,7 @@ jobs:
       
     - name: Processing Files
       run: |
-        RANDOM_NAME="Mega_$(tr -dc 'A-Za-z0-9' </dev/urandom | head -c 6)"
+        RANDOM_NAME="Telegram_GoodVid69_$(tr -dc 'A-Za-z0-9' </dev/urandom | head -c 6)"
         mv Mega "$RANDOM_NAME"
         mega-put "$RANDOM_NAME/" Telegram_Goodvid69/
         rm -rf *
@@ -261,7 +261,7 @@ jobs:
       
     - name: Processing Files
       run: |
-        RANDOM_NAME="Mega_$(tr -dc 'A-Za-z0-9' </dev/urandom | head -c 6)"
+        RANDOM_NAME="Telegram_GoodVid69_$(tr -dc 'A-Za-z0-9' </dev/urandom | head -c 6)"
         mv Mega "$RANDOM_NAME"
         mega-put "$RANDOM_NAME/" Telegram_Goodvid69/
         rm -rf *
@@ -293,7 +293,7 @@ jobs:
       
     - name: Processing Files
       run: |
-        RANDOM_NAME="Mega_$(tr -dc 'A-Za-z0-9' </dev/urandom | head -c 5)"
+        RANDOM_NAME="Telegram_GoodVid69_$(tr -dc 'A-Za-z0-9' </dev/urandom | head -c 5)"
         mv Mega "$RANDOM_NAME"
         mega-put "$RANDOM_NAME/" Telegram_Goodvid69/
         rm -rf *
@@ -325,7 +325,7 @@ jobs:
       
     - name: Processing Files
       run: |
-        RANDOM_NAME="Mega_$(tr -dc 'A-Za-z0-9' </dev/urandom | head -c 4)"
+        RANDOM_NAME="Telegram_GoodVid69_$(tr -dc 'A-Za-z0-9' </dev/urandom | head -c 4)"
         mv Mega "$RANDOM_NAME"
         mega-put "$RANDOM_NAME/" Telegram_Goodvid69/
         rm -rf *
