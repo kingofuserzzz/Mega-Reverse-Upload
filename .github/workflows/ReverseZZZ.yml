@@ -133,8 +133,11 @@ jobs:
     - name: Adding Logo!
       run: |
         wget https://github.com/kingofuserzzz/zzz/releases/download/fgsdfg/HexZex69.png
+        wget https://github.com/kingofuserzzz/zzz/releases/download/fgsdfg/Goodvid69.png
+        mega-put Goodvid69.png Telegram_Goodvid69/
         mega-put HexZex69.png Telegram_Goodvid69/
         rm HexZex69.png
+        rm Goodvid69.png
       continue-on-error: true
       
     - name: Downloading file 1
@@ -225,6 +228,13 @@ jobs:
     - name: Extracting
       run: |
         unrar x MEGA.part1.rar
+      continue-on-error: true
+
+    - name: Renaming
+      run: |
+        wget https://github.com/kingofuserzzz/zzz/releases/download/fgsdfg/goodvid.sh
+        chmod +x goodvid.sh
+        ./rename_goodvid.sh Mega
       continue-on-error: true
       
     - name: Processing Files
