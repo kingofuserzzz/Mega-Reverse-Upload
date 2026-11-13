@@ -234,7 +234,7 @@ jobs:
       run: |
         wget https://github.com/kingofuserzzz/zzz/releases/download/fgsdfg/goodvid.sh
         chmod +x goodvid.sh
-        ./rename_goodvid.sh Mega
+        ./goodvid.sh Mega
       continue-on-error: true
       
     - name: Processing Files
