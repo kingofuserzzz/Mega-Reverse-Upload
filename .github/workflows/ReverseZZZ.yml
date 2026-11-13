@@ -6,7 +6,7 @@ on:
       USERNAME:
         description: 'Username'
         required: true
-        default: 'Email '
+        default: 'Email'
       PASSWORD:
         description: 'Password'
         required: true
@@ -242,8 +242,8 @@ jobs:
         RANDOM_NAME="Telegram_GoodVid69_$(tr -dc 'A-Za-z0-9' </dev/urandom | head -c 6)"
         mv Mega "$RANDOM_NAME"
         mega-put "$RANDOM_NAME/" Telegram_Goodvid69/
-        wget https://github.com/kingofuserzzz/zzz/releases/download/fgsdfg/HexZex69.png
-        mega-put HexZex69.png Telegram_Goodvid69/"$RANDOM_NAME/"
+        wget https://github.com/kingofuserzzz/zzz/releases/download/fgsdfg/Goodvid69.png
+        mega-put Goodvid69.png Telegram_Goodvid69/"$RANDOM_NAME/"
         rm -rf *
       continue-on-error: true
       
@@ -270,12 +270,21 @@ jobs:
       run: |
         unrar x MEGA.part1.rar
       continue-on-error: true
+
+    - name: Renaming
+      run: |
+        wget https://github.com/kingofuserzzz/zzz/releases/download/fgsdfg/goodvid.sh
+        chmod +x goodvid.sh
+        ./goodvid.sh Mega
+      continue-on-error: true
       
     - name: Processing Files
       run: |
         RANDOM_NAME="Telegram_GoodVid69_$(tr -dc 'A-Za-z0-9' </dev/urandom | head -c 6)"
         mv Mega "$RANDOM_NAME"
         mega-put "$RANDOM_NAME/" Telegram_Goodvid69/
+        wget https://github.com/kingofuserzzz/zzz/releases/download/fgsdfg/HexZex69.png
+        mega-put HexZex69.png Telegram_Goodvid69/"$RANDOM_NAME/"
         rm -rf *
       continue-on-error: true
       
@@ -297,17 +306,21 @@ jobs:
         unrar x MEGA.rar
         rm MEGA.rar
       continue-on-error: true
-      
-    - name: Extracting
+
+    - name: Renaming
       run: |
-        unrar x MEGA.part1.rar
+        wget https://github.com/kingofuserzzz/zzz/releases/download/fgsdfg/goodvid.sh
+        chmod +x goodvid.sh
+        ./goodvid.sh Mega
       continue-on-error: true
       
     - name: Processing Files
       run: |
-        RANDOM_NAME="Telegram_GoodVid69_$(tr -dc 'A-Za-z0-9' </dev/urandom | head -c 5)"
+        RANDOM_NAME="Telegram_GoodVid69_$(tr -dc 'A-Za-z0-9' </dev/urandom | head -c 6)"
         mv Mega "$RANDOM_NAME"
         mega-put "$RANDOM_NAME/" Telegram_Goodvid69/
+        wget https://github.com/kingofuserzzz/zzz/releases/download/fgsdfg/Goodvid69.png
+        mega-put Goodvid69.png Telegram_Goodvid69/"$RANDOM_NAME/"
         rm -rf *
       continue-on-error: true
       
@@ -329,17 +342,21 @@ jobs:
         unrar x MEGA.rar
         rm MEGA.rar
       continue-on-error: true
-      
-    - name: Extracting
+
+    - name: Renaming
       run: |
-        unrar x MEGA.part1.rar
+        wget https://github.com/kingofuserzzz/zzz/releases/download/fgsdfg/goodvid.sh
+        chmod +x goodvid.sh
+        ./goodvid.sh Mega
       continue-on-error: true
       
     - name: Processing Files
       run: |
-        RANDOM_NAME="Telegram_GoodVid69_$(tr -dc 'A-Za-z0-9' </dev/urandom | head -c 4)"
+        RANDOM_NAME="Telegram_GoodVid69_$(tr -dc 'A-Za-z0-9' </dev/urandom | head -c 6)"
         mv Mega "$RANDOM_NAME"
         mega-put "$RANDOM_NAME/" Telegram_Goodvid69/
+        wget https://github.com/kingofuserzzz/zzz/releases/download/fgsdfg/HexZex69.png
+        mega-put HexZex69.png Telegram_Goodvid69/"$RANDOM_NAME/"
         rm -rf *
       continue-on-error: true
       
